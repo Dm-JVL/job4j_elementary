@@ -16,7 +16,7 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    public void when00to10then2() {
+    public void when00to10then1() {
         int expected = 1;
         int x1 = 0;
         int y1 = 0;
@@ -27,7 +27,7 @@ public class PointTest {
     }
 
     public void when00to01then1() {
-        int expected = 2;
+        int expected = 1;
         int x1 = 0;
         int y1 = 0;
         int x2 = 0;
@@ -37,7 +37,7 @@ public class PointTest {
     }
 
     public void when00to01then3() {
-        int expected = 2;
+        int expected = 3;
         int x1 = 1;
         int y1 = 0;
         int x2 = 4;
