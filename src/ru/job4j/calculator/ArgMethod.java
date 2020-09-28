@@ -11,10 +11,10 @@ public class ArgMethod {
 
         ArgMethod.hello(name);
 
-        ArgMethod.hello(name+". Your age is - "+age+".");
+        ArgMethod.hello(name + ". Your age is - " + age + ".");
 
-        ArgMethod.hello("your age is - "+age+".");
+        ArgMethod.hello("your age is - " + age + ".");
 
-        ArgMethod.hello(name+" - "+name+" - "+name);
+        ArgMethod.hello(name + " - " + name + " - " + name);
     }
 }
