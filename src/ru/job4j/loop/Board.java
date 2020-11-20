@@ -8,7 +8,7 @@ public class Board {
                 /* Выше в задании мы определили закономерность, когда нужно проста,влять X */
                 if (isEven(row + cell)) {
                     System.out.print("X");
-                } else{
+                } else {
                     System.out.print(" ");
                 }
             }
