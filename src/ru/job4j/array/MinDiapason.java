@@ -5,7 +5,6 @@ public class MinDiapason {
         int min = array[start];
 
         for (int index = start; index <= finish; index++) {
-            /* проверить, что эталон больше, чем элемент. записать в эталон элемент массива. */
             if (array[index] < min) {
                 min = array[index];
             }

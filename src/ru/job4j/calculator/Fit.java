@@ -19,5 +19,4 @@ public class Fit {
         value = Fit.womanWeight(height);
         System.out.println("Woman 187 cm. is " + value + " kg.");
     }
-
 }
