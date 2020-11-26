@@ -3,6 +3,10 @@ package ru.job4j.max;
 public class Reduce {
     private int[] array;
 
+    public Reduce(int[] arrayIn) {
+        this.array = arrayIn;
+    }
+
     public void to(int[] arrayNew) {
         array = arrayNew;
     }
@@ -15,8 +19,8 @@ public class Reduce {
 
     public static void main(String[] args) {
         int[] array = {1, 2, 3};
-        Reduce reduce = new Reduce();
-        reduce.to(array);
+        Reduce reduce = new Reduce(array);
+        //reduce.to(array);
         reduce.print();
     }
 }
